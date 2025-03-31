@@ -1,6 +1,28 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Montserrat Variable (normal) */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Montserrat Variable (italic) */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserratt/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Application sur tout ton site */
+body, h1, h2, h3, h4, h5, h6, nav {
+  font-family: 'Montserrat', sans-serif;
+}
 body {
   background: #fff;
   color: #666666;
