@@ -755,9 +755,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials .testimonial-item p {
   margin: 0 auto 15px auto;
   color: #111;
-  max-width: 600px; /* optionnel : limite la largeur pour une meilleure lisibilité */
-  text-align: justify;
+  max-width: 600px;
+  text-align: left; /* ou center si tu veux centrer le texte */
 }
+
 
 
 @media (min-width: 992px) {
