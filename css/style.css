@@ -26,18 +26,19 @@ body, h1, h2, h3, h4, h5, h6, nav {
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
   color: #00aaff;
   transition: 0.5s;
+  text-decoration: none; 
 }
 
 a:hover, a:active, a:focus {
   color: #00aaff;
   outline: none;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 p {
